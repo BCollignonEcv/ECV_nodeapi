@@ -1,0 +1,15 @@
+{
+    "name": "ecv_nodeapi_tp3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ecv_nodeapi_tp2": "^1.0.1",
+        "manach-package": "^1.1.2"
+    }
+}
