@@ -20,14 +20,11 @@ module.exports = {
       username: {
         type: Sequelize.STRING
       },
-      role: {
-        type: Sequelize.STRING
+      role_id: {
+        type: Sequelize.UUIDV4
       },
       githubUrl: {
         type: Sequelize.STRING
-      },
-      role: {
-        type: Sequelize.UUID
       },
       createdAt: {
         allowNull: false,

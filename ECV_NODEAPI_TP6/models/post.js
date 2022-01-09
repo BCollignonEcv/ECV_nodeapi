@@ -10,11 +10,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.belongsTo(models.User, {
-        foreignKey: 'userId'
+        foreignKey: 'author',
+        allowNull: false,
       }); 
       this.hasMany(models.Comment, {
-        as: 'comments',
-        foreignKey: 'commentId'
+        foreignKey: 'post_id',
+        allowNull: false,
       });    
     }
   };

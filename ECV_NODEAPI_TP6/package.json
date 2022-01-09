@@ -4,7 +4,9 @@
   "description": "NODE API - TP6",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh start.sh",
+    "dev": "npx nodemon app.js"
   },
   "author": "Collignon Baptiste",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "express": "^4.17.2",
     "sequelize": "^6.12.5",
     "sequelize-cli": "^6.3.0",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
   }
 }

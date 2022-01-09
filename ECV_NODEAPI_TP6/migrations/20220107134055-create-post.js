@@ -18,7 +18,7 @@ module.exports = {
         type: Sequelize.DATE
       },
       author: {
-        type: Sequelize.STRING
+        type: Sequelize.UUID
       },
       createdAt: {
         allowNull: false,

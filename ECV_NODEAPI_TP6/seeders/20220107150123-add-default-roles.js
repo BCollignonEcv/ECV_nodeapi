@@ -1,5 +1,5 @@
 'use strict';
-const uuidv4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -11,6 +11,11 @@ module.exports = {
       },{
         id: uuidv4(),
         name: 'Publisher',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },{
+        id: uuidv4(),
+        name: 'Reader',
         createdAt: new Date(),
         updatedAt: new Date()
       }

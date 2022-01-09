@@ -17,6 +17,9 @@ module.exports = {
       author: {
         type: Sequelize.STRING
       },
+      post_id: {
+        type: Sequelize.UUID
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
